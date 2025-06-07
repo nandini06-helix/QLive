@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(135deg, #fbe3e8, #e8d4f6, #d6ecfa, #f4e2f5);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+.main-content {
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+}
+*{
+  font-family: "Winky Rough", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+
+
+.app-name {
+  font-size: 2.5rem;        
+  color: #6a4c93;           
+  text-align: center;       
+  width: 100%;              
+  font-weight: 700;         
+  margin: 1rem 0;   
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .navbar {
+    font-size: 1.25rem;
+    padding: 1rem;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+}

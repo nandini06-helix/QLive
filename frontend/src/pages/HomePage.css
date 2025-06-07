@@ -1,0 +1,65 @@
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.container h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.9rem;
+  color: #6b4acc;
+}
+.app-name h1{
+ display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 3rem;
+font-size: 3rem;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 12px 0;
+  font-size: 1rem;
+  border: 2px solid #dcd6f7;
+  border-radius: 12px;
+  box-sizing: border-box;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #bfaaff;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  /* background: linear-gradient(to right, #a18cd1, #fbc2eb); */
+  background-color: #a18cd1;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
