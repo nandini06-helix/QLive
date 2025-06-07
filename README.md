@@ -52,6 +52,6 @@ In large live sessions, not every attendee gets the chance to ask questions. Thi
 ## Screenshots
 
 ![Home Page](frontend/src/assets/qlive1.png)
-![Event Page](assets/qlive2.png)
+![Event Page](frontend/src/assets/qlive2.png)
 
 
